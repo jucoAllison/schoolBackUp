@@ -1,0 +1,28 @@
+{
+  "name": "passion_schools",
+  "version": "1.0.0",
+  "description": "Passion Schools backend",
+  "main": "basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nill"
+  ],
+  "author": "mr. me",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hapi": "^18.1.0",
+    "helmet": "^3.21.2",
+    "html2canvas": "^1.0.0-rc.5",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "jspdf": "^1.5.3",
+    "mongoose": "^5.8.4",
+    "morgan": "^1.9.1",
+    "twilio": "^3.39.4"
+  }
+}

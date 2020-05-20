@@ -1,0 +1,38 @@
+  input{
+    background-color: #ace;
+    width: 60px;
+    border: 1px solid #000;
+    height: 30px;
+    position: relative;
+    transition: .5s;
+    border-radius: 6px;
+    -webkit-appearance: none;
+  }
+
+  *{
+    outline: none;
+  }
+
+  input:checked{
+    background-color: blue;
+  }
+
+  input::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    background-color: #ec3;
+    width: 40px;
+    transition: .5s;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: -5px;
+  }
+
+  input:checked::before{
+    left: 30px;
+    background-color: #fff;
+  }
+  body{
+    background-color: red;
+  }
