@@ -20,7 +20,7 @@
     "html2canvas": "^1.0.0-rc.5",
     "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "mongoose": "^5.8.4",
     "morgan": "^1.9.1",
     "twilio": "^3.39.4"
